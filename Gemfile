@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.2.1'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'rails-i18n'
 
 gem 'autoprefixer-rails'
@@ -19,7 +19,7 @@ gem 'jquery-rails'
 gem 'kaminari'
 gem 'mail'
 gem 'newrelic_rpm'
-gem 'paul_revere', '~> 3.0.0'
+gem 'paul_revere', '~> 3.1.0'
 gem 'pg'
 gem 'rack'
 gem 'rack-utf8_sanitizer'
