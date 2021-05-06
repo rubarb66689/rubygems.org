@@ -24,7 +24,7 @@ gem 'pg'
 gem 'rack'
 gem 'rack-utf8_sanitizer'
 gem 'rbtrace', '~> 0.4.8'
-gem 'rdoc'
+gem 'rdoc', '>= 6.3.0'
 gem 'rest-client', require: 'rest_client'
 gem 'roadie-rails'
 gem 'sass', require: false
