@@ -26,7 +26,7 @@ gem 'rack-utf8_sanitizer'
 gem 'rbtrace', '~> 0.4.8'
 gem 'rdoc'
 gem 'rest-client', require: 'rest_client'
-gem 'roadie-rails'
+gem 'roadie-rails', '>= 2.1.0'
 gem 'sass', require: false
 gem 'shoryuken', '~> 2.1.0', require: false
 gem 'statsd-instrument', '~> 2.3.0'
@@ -42,7 +42,7 @@ gem 'compact_index', '~> 0.11.0'
 gem 'sprockets-rails'
 gem 'rack-attack'
 gem 'rqrcode'
-gem 'rotp'
+gem 'rotp', '>= 4.1.0'
 
 # Logging
 gem 'lograge'
@@ -63,14 +63,14 @@ end
 
 group :test do
   gem 'minitest', require: false
-  gem 'capybara', '~> 2.18'
+  gem 'capybara', '~> 2.18', '>= 2.18.0'
   gem 'factory_bot_rails'
-  gem 'launchy'
+  gem 'launchy', '>= 2.4.3'
   gem 'rack-test', require: 'rack/test'
   gem 'mocha', require: false
   gem 'shoulda'
 end
 
 group :development, :deploy do
-  gem 'kubernetes-deploy', '>= 0.20.6', require: false
+  gem 'kubernetes-deploy', '>= 0.26.4', require: false
 end
