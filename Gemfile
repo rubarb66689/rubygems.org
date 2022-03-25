@@ -72,5 +72,5 @@ group :test do
 end
 
 group :development, :deploy do
-  gem 'kubernetes-deploy', '>= 0.20.6', require: false
+  gem 'kubernetes-deploy', '>= 0.26.4', require: false
 end
