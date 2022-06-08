@@ -4,7 +4,7 @@ gem 'rails', '~> 5.2.1'
 gem 'rails-i18n'
 
 gem 'autoprefixer-rails'
-gem 'aws-sdk', '~> 2.2'
+gem 'aws-sdk', '~> 2.11', '>= 2.11.263'
 gem 'clearance'
 gem 'clearance-deprecated_password_strategies'
 gem 'daemons'
@@ -28,7 +28,7 @@ gem 'rdoc'
 gem 'rest-client', require: 'rest_client'
 gem 'roadie-rails'
 gem 'sass', require: false
-gem 'shoryuken', '~> 2.1.0', require: false
+gem 'shoryuken', '~> 2.1.3', require: false
 gem 'statsd-instrument', '~> 2.3.0'
 gem 'uglifier', '>= 1.0.3'
 gem 'unicorn', '~> 5.5.0.1.g6836'
