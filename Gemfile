@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.2.1'
+gem 'rails', '~> 5.2.3'
 gem 'rails-i18n'
 
 gem 'autoprefixer-rails'
@@ -33,7 +33,7 @@ gem 'statsd-instrument', '~> 2.3.0'
 gem 'uglifier', '>= 1.0.3'
 gem 'unicorn', '~> 5.5.0.1.g6836'
 gem 'validates_formatting_of'
-gem 'elasticsearch-model', '~> 5.0.0'
+gem 'elasticsearch-model', '~> 5.0.2'
 gem 'elasticsearch-rails', '~> 5.0.0'
 gem 'elasticsearch-dsl', '~> 0.1.2'
 gem 'faraday_middleware-aws-sigv4', '~> 0.2.4'
@@ -72,5 +72,5 @@ group :test do
 end
 
 group :development, :deploy do
-  gem 'kubernetes-deploy', '>= 0.20.6', require: false
+  gem 'kubernetes-deploy', '>= 0.26.4', require: false
 end
