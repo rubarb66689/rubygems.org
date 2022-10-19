@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 5.2.1'
+gem 'rails', '~> 5.2.3'
 gem 'rails-i18n'
 
 gem 'autoprefixer-rails'
@@ -63,7 +63,7 @@ end
 
 group :test do
   gem 'minitest', require: false
-  gem 'capybara', '~> 2.18'
+  gem 'capybara', '~> 2.18', '>= 2.18.0'
   gem 'factory_bot_rails'
   gem 'launchy'
   gem 'rack-test', require: 'rack/test'
