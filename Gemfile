@@ -40,7 +40,7 @@ gem 'faraday_middleware-aws-sigv4', '~> 0.2.4'
 gem 'xml-simple'
 gem 'compact_index', '~> 0.11.0'
 gem 'sprockets-rails'
-gem 'rack-attack'
+gem 'rack-attack', '>= 6.7.0'
 gem 'rqrcode'
 gem 'rotp'
 
